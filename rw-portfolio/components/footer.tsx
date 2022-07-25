@@ -8,7 +8,7 @@ const Footer = () => {
             alt="React Bricks"
             className="w-8"
           />
-          <div className="text-gray-500 uppercase text-sm tracking-wider">Deployed on Digital Ocean. Stack: React, NextJS, React Bricks, Tailwind CSS</div>
+          <div className="text-gray-500 uppercase text-sm tracking-wider">Deployed on Digital Ocean. Built with: React, NextJS, React Bricks, Tailwind CSS</div>
         </div>
         <div className="text-gray-500 text-sm">
           © {new Date().getFullYear()}{' '}
