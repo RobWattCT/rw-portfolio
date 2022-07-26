@@ -3,7 +3,7 @@ import React from 'react'
 
 const Header: React.FC = () => (
   <header className="bg-slate-800 sm:h-20 py-5 sm:sticky top-0">
-    <div className="max-w-5xl mx-auto px-6">
+    <div className="max-w-7xl mx-auto px-6">
       <div className="w-full flex flex-col sm:flex-row justify-center sm:justify-between items-center">
         <div className="flex flex-col sm:flex-row items-center mb-4 sm:mb-0">
           <img src="/robwatt-logo-white.png" className="w-14" alt="Rob Watt" />
@@ -22,11 +22,6 @@ const Header: React.FC = () => (
             </Link>
           </div>
         </div>
-        <Link href="/admin" prefetch={false}>
-          <a className="py-2 px-5 rounded text-white font-medium bg-cyan-500 hover:bg-cyan-600 hover:shadow-lg transition duration-200">
-            Edit content
-          </a>
-        </Link>
       </div>
     </div>
   </header>
