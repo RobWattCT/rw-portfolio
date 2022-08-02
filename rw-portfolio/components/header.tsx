@@ -12,13 +12,13 @@ const Header: React.FC = () => (
               <a className="text-white hover:text-sky-700">Home</a>
             </Link>
             <Link href="https://forms.reform.app/PxGYph/work-with-us/vyZ90c">
-              <a className="text-white hover:text-sky-700" target="_blank">Get Quote</a>
+              <a className="text-white hover:text-sky-700" target="_blank">Quote</a>
             </Link>
             <Link href="https://github.com/RobWattCT">
-              <a className="text-white hover:text-sky-700" target="_blank">My GitHub</a>
+              <a className="text-white hover:text-sky-700" target="_blank">GitHub</a>
             </Link>
             <Link href="https://www.linkedin.com/in/robwattct/">
-              <a className="text-white hover:text-sky-700" target="_blank">My LinkedIn</a>
+              <a className="text-white hover:text-sky-700" target="_blank">LinkedIn</a>
             </Link>
           </div>
         </div>
